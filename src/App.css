@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  @media(min-width:1000px){
+    .card{
+        width:32%;
+        margin-right: 5px;
+        margin-left: 5px;
+        border:1px solid lightgray;
+        height: 40%;
+        display: inline-flex;
+        border-radius: 5px;
+        margin-bottom: 8px;  
+    }
+    
+    .box{ 
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+        width:10%;
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+    }
+
   }
-}
+  @media(max-width:1100px){
+    .card{
+        width:45%;
+        margin-right: 10px;
+        margin-left: 10px;
+        border:1px solid lightgray;
+        height: 40%;
+        display: inline-flex;
+        border-radius: 5px;
+        margin-bottom: 8px;  
+    }
+    
+    .box{ 
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+        width:10%;
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+    }
+    .mainDiv{
+        text-align: center;
+    }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+  @media(max-width:830px){
+    .card{
+        width:90%;
+        margin-right: 10px;
+        margin-left: 10px;
+        border:1px solid lightgray;
+        height: 40%;
+        display: inline-flex;
+        border-radius: 5px;
+        margin-bottom: 8px;  
+    }
+    
+    .box{ 
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+        width:10%;
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+    }
+
   }
+  .postIcons li *{
+    cursor:pointer;
+    padding-right: 0.8em;
+  }
+  
+  
+  .heartColor{
+    color:lightgray
+  }
+  .heartColor:hover{
+  color:red
+  }
+ 
+
+
+.retweetColor{
+    color:lightgray
+
 }
+.retweetColor:hover{
+    color:orange
+}
+.commentColor{
+    color:lightgray
+
+}
+.commentColor:hover{
+    color:blueviolet
+}
+.viewColor{
+    color:lightgray
+
+}
+.viewColor:hover{
+    color:black
+    
+}
+
+
+
+
