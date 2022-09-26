@@ -1,6 +1,5 @@
-
 import data from "./data/data.json";
-import "./App.css";
+import "./app.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTwitter,
@@ -19,7 +18,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import noPng from "./img/no-post-image.png";
 
-
 function App() {
   return (
     <div>
@@ -32,9 +30,9 @@ function App() {
                 className="box"
                 style={{
                   backgroundColor:
-                    (item.status === 3 && "grey") ||
+                    (item.status === 3 && "#A09998") ||
                     (item.status === 0 && "orange") ||
-                    (item.status === 1 && "green") ||
+                    (item.status === 1 && "#88B04B") ||
                     (item.status === 4 && "red"),
                 }}
               >
@@ -55,7 +53,13 @@ function App() {
                 </div>
               </div>
               <div style={{ width: "100%", padding: "1em" }}>
-                <div style={{ marginBottom: "1em" }}>
+                <div
+                  style={{
+                    marginBottom: "0.75em",
+                    borderBottom: "1px solid gray",
+                    paddingBottom: "0.75em",
+                  }}
+                >
                   <ul
                     style={{
                       listStyleType: "none",
@@ -117,6 +121,7 @@ function App() {
                   </ul>
                   <p>{item.entry.message}</p>
                 </div>
+
                 <div style={{ marginBottom: "1em" }}>
                   <img
                     style={{
@@ -185,10 +190,10 @@ function App() {
                 className="box"
                 style={{
                   backgroundColor:
-                    (item.status === 3 && "grey") ||
-                    (item.status === 0 && "orange") ||
-                    (item.status === 1 && "green") ||
-                    (item.status === 4 && "red"),
+                    (item.status === 3 && "#EDF1FF") ||
+                    (item.status === 0 && "#F5DF4D") ||
+                    (item.status === 1 && "#88B04B") ||
+                    (item.status === 4 && "#FF6F61"),
                 }}
               >
                 <div className="item">

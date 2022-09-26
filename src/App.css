@@ -76,6 +76,7 @@
   
   
   .heartColor{
+    padding-top: 1px;
     color:lightgray
   }
   .heartColor:hover{
@@ -85,6 +86,7 @@
 
 
 .retweetColor{
+    padding-top: 1px;
     color:lightgray
 
 }
@@ -92,13 +94,15 @@
     color:orange
 }
 .commentColor{
+    padding-top: 2px;
     color:lightgray
 
 }
 .commentColor:hover{
-    color:blueviolet
+    color:#92A8D1
 }
 .viewColor{
+    padding-top: 1px;
     color:lightgray
 
 }
