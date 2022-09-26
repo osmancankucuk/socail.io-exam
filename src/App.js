@@ -1,5 +1,5 @@
 import data from "./data/data.json";
-import "./app.css";
+import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTwitter,
